@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="O3rqf4" name="Audio Player and Recorder" projectType="guiapp"
+              useAppConfig="0" addUsingNamespaceToJuceHeader="0" displaySplashScreen="1"
+              jucerFormatVersion="1">
+  <MAINGROUP id="U1FACU" name="Audio Player and Recorder">
+    <GROUP id="{FF759B57-1FE3-9BBB-8313-FB70958A1BFC}" name="Source">
+      <FILE id="JRbIro" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="AOnXTM" name="MainContentComponent.cpp" compile="1" resource="0"
+            file="Source/MainContentComponent.cpp"/>
+      <FILE id="uqtu1Q" name="MainContentComponent.h" compile="0" resource="0"
+            file="Source/MainContentComponent.h"/>
+      <FILE id="gDQDAb" name="Gui_record_play.h" compile="0" resource="0"
+            file="Source/Gui_record_play.h"/>
+      <FILE id="XqXjDa" name="Gui_record_play.cpp" compile="1" resource="0"
+            file="Source/Gui_record_play.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" microphonePermissionNeeded="1">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Audio Player and Recorder"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Audio Player and Recorder"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../Downloads/JUCE4/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../Downloads/JUCE4/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../Downloads/JUCE4/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../Downloads/JUCE4/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../Downloads/JUCE4/modules"/>
+        <MODULEPATH id="juce_core" path="../../../Downloads/JUCE4/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../Downloads/JUCE4/modules"/>
+        <MODULEPATH id="juce_events" path="../../../Downloads/JUCE4/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../Downloads/JUCE4/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../Downloads/JUCE4/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../Downloads/JUCE4/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
